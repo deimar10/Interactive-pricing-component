@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/assets/css/slider.css">
+  <link rel="stylesheet" href="/assets/css/switch.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+
+  <h1>Simple, traffic-based pricing</h1>
+  <h2>Sign-up for our 30-day trial. No credit card required. </h2>
+
+  <div class="slidecontainer">
+    <p id="views">100k pageviews</p>
+    <p>Value:<span id="demo">$16/month</span></p>
+  <input type="range" min="8" max="36" value="16" class="slider" id="myRange">
+</div>
+  <div class="slidercontainer">
+    <span style="margin: 0.8em;">Monthly Billing</span>
+    <label class="switch">
+      <input id="checked" type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <span style="margin: 0.8em;">Yearly Billing</span>
+    <span style="margin: 0.8em;">25% discount</span>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="/assets/js/slider.js"></script>
+  <script src="/assets/js/switch.js"></script>
+</body>
+</html>
