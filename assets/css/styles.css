@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Manrope-Bold;
+    src: url(/Fonts/static/Manrope-Bold.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Extra-Bold;
+    src: url(/Fonts/static/Manrope-ExtraBold.ttf);
+}
+
+body {
+    font-family: Manrope-Bold;
+    background-color: hsl(230, 100%, 99%);
+}
+
+.maincontainer img {
+    margin-top: -15px;
+    width: 100%;
+}
+
+.maincontainer #pattern-circle {
+    width: 12%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.maincontainer h1 {
+    font-family: Manrope-Extra-Bold;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.maincontainer h2 {
+    color: hsl(225, 20%, 60%);
+    position: absolute;
+    font-size: 17px;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.maincontainer .card {
+    color: hsl(225, 20%, 60%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 480px;
+    width: 35%;
+    border-radius: 8px;
+    background-color:  white;
+    box-shadow: 0px 0px 36px 5px #E4E4F9;
+}
+
+.card-info {
+    list-style-type: none;
+    padding-top: 30px;
+    margin-top: 90px;
+    text-align: center;
+    border-top: 2px solid  hsl(224, 65%, 95%);
+    overflow: hidden;
+}
+
+.card-info #first {
+    width: 300px;
+    float:left;
+ }
+
+ .card-info #second {
+    width: 300px;
+    float:left; 
+ }
+
+.card-info ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+.card-info li {
+   margin: 10px;
+}
+
+.card-info #imgcheck {
+   width: 5%;
+}
+
+.card-info button {
+    font-size: 14px;
+    font-family: Manrope-Extra-Bold;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: 1px solid hsl(227, 35%, 25%);
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    color: hsl(226, 100%, 87%);
+    background-color: hsl(227, 35%, 25%);
+ }
+
+.attribution {
+    margin-top: 260px;
+    text-align: center;
+}
