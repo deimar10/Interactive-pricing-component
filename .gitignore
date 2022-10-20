@@ -26,3 +26,15 @@ images/bg-pattern.svg
 images/icon-check.svg
 images/icon-slider.svg
 images/pattern-circles.svg
+index.html
+Fonts/Manrope-VariableFont_wght.ttf
+Fonts/README.txt
+Fonts/OFL.txt
+Fonts/static/Manrope-Bold.ttf
+Fonts/static/Manrope-ExtraBold.ttf
+Fonts/static/Manrope-ExtraLight.ttf
+Fonts/static/Manrope-Light.ttf
+Fonts/static/Manrope-Medium.ttf
+Fonts/static/Manrope-Regular.ttf
+Fonts/static/Manrope-SemiBold.ttf
+.gitignore
