@@ -5,35 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/slider.css">
   <link rel="stylesheet" href="/assets/css/switch.css">
   <title>Frontend Mentor | Interactive pricing component</title>
 </head>
 <body>
-
+  <div class="maincontainer">
+    <img src="/images/bg-pattern.svg" alt="">
+    <img id="pattern-circle" src="/images/pattern-circles.svg" alt="">
   <h1>Simple, traffic-based pricing</h1>
   <h2>Sign-up for our 30-day trial. No credit card required. </h2>
 
+<div class="card">
   <div class="slidecontainer">
     <p id="views">100k pageviews</p>
-    <p>Value:<span id="demo">$16/month</span></p>
-  <input type="range" min="8" max="36" value="16" class="slider" id="myRange">
+    <p><span id="demo">$8</span>/month</p> 
+  <input type="range" min="0" max="36" value="0" class="slider" id="myRange">
 </div>
-  <div class="slidercontainer">
-    <span style="margin: 0.8em;">Monthly Billing</span>
-    <label class="switch">
-      <input id="checked" type="checkbox">
-      <span class="slider round"></span>
-    </label>
-    <span style="margin: 0.8em;">Yearly Billing</span>
-    <span style="margin: 0.8em;">25% discount</span>
+<div class="slidercontainer">
+  <span style="margin: 0.8em;">Monthly Billing</span>
+  <label class="switch">
+    <input id="checked" type="checkbox">
+   <span class="slider round"></span>
+  </label>
+  <span style="margin: 0.8em;">Yearly Billing</span>
+  <span id="discount">25% discount</span>
+</div>
+    <div class="card-info">
+      <div id="first">
+    <ul>
+      <li><img id="imgcheck" src="/images/icon-check.svg"> Unlimited websites</li>
+      <li><img id="imgcheck" src="/images/icon-check.svg"> 100% data owenership</li>
+      <li><img id="imgcheck" src="/images/icon-check.svg"> Email reports</li>
+    </ul>
   </div>
-
-
+  <div id="second">
+    <button>Start my trial</button>
+  </div>
+  </div>
+</div>
+</div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Deimar Pärn</a>.
   </div>
   <script src="/assets/js/slider.js"></script>
   <script src="/assets/js/switch.js"></script>
